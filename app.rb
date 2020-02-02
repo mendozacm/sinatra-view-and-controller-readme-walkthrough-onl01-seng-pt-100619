@@ -2,10 +2,6 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
   
-  get "/" do
-  @user = "Cesar"
-  erb :index
-  end
  
   
   get '/reverse' do
@@ -21,6 +17,6 @@ end
 
   get '/friends' do
     # Write your code here!
-
+    eb :friends
   end
 end
